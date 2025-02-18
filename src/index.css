@@ -1,0 +1,144 @@
+body{
+  margin: 0px;
+  padding: 0px 50px 0px 50px ;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 102, 0, 0.7) 50%, rgba(0, 0, 0, 0.8) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.ant-btn.ant-btn-color-primary{
+  background:#104a9c;
+}
+
+.ant-btn.ant-btn-color-primary:hover{
+  background:#1a71eb !important;
+}
+
+
+.ant-table{
+  background: rgba(185, 197, 193, 0.25) !important;
+  scrollbar-color: revert !important;
+  border-radius: 8px 8px 8px 8px !important;
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.6);
+}
+
+.ant-table-title {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  border: 0px solid rgba(185, 197, 193, 0.5) !important;
+  /* backdrop-filter: blur(30px); */
+}
+.ant-table-body{
+  background: #fff;
+}
+
+.ant-table-footer{
+  background: rgba(185, 197, 193, 0.25) !important;
+  border: 0px solid rgba(185, 197, 193, 0.5) !important;
+}
+
+.title-page{
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.form-range form{
+    display: flex;
+    justify-content: center;
+    gap : 10px;
+    padding-top: 40px;
+}
+
+.form-range  form .ant-form-item{
+  margin: 0px;
+}
+
+.container-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 25px 50px 50px 50px;
+}
+
+.chemistry .chemistry-flok {
+  width: 800px;
+}
+
+.chemistry-flok .ant-table-title {
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+}
+
+.ant-card{
+  cursor: default;
+  background: rgba(185, 197, 193, 0.25) !important;
+  border: 0px solid rgba(185, 197, 193, 0.5) !important;
+  box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.6);
+}
+
+.ant-card .ant-card-head{
+  border: 0px solid rgba(185, 197, 193, 0.5) !important;
+  color: white;
+}
+
+.ant-card .ant-card-head-title{
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+}
+.ant-card .ant-card-body{
+  background-color: #fff;
+  margin-inline-start: revert !important;
+  margin-block-start: revert !important;
+}
+
+.ant-card{
+  width: 800px;
+  border-radius: 8px !important;
+}
+
+.ant-card .ant-card-grid{
+  width: 50%;
+  font-size: medium;
+  text-align: center;
+
+}
+.ant-card-grid.grid-title-column{
+  text-align: center;
+}
+
+.ant-card-body div:first-child, .ant-card-body div:nth-child(2) {
+  font-weight: 600;
+}
+
+.ant-card-body div:last-child{
+  border-radius: 0px 0px 8px 0px;
+}
+.ant-card-body div:nth-last-child(2){
+  border-radius: 0px 0px 0px 8px;
+}
+
+.ant-card .ant-card-body .ant-card-grid{
+  border: 1px solid rgba(185, 197, 193, 0.5) !important;
+  box-shadow: revert !important;
+}
+
+.ant-table-filter-dropdown-btns .ant-btn-variant-link{
+  color: white
+}

@@ -1,0 +1,71 @@
+
+.carousel-container{
+    padding: 100px 0px 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    animation: slide-in 2s forwards;
+}
+
+  
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.carousel-container .mycard{
+    cursor: pointer;
+    color: #fff;
+    width: 240px;
+    padding: 25px 15px 15px 15px;
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 157, 102, 0.25);
+    border: 1px solid rgba(0, 157, 102, 0.5);
+    border-radius: 8px;
+    box-shadow: 0px 10px 18px rgba(0, 0, 0, 0.6); 
+    transition: transform 0.1s ease-in-out; 
+}
+.carousel-container .mycard:hover{
+    transform: scale(1.05);
+}
+.carousel-container .mycard .card-image{
+    width: 100px ;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    padding: 4px;
+}
+.carousel-container .mycard .card-image svg{
+    height: 60px;
+    width: 90px;
+}
+
+.carousel-container .mycard .main{
+    font-size: 1.3rem;
+    color: rgb(227, 227, 227);
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.carousel-container .mycard .description{
+    font-size: 0.9rem;
+    color: rgba(227, 227, 227, 0.45);
+    font-weight: 500;
+    padding-top: 20px;
+    text-align: center;
+}

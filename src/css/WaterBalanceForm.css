@@ -1,0 +1,12 @@
+.waterbalance .table-form{
+    padding: 10px 0px 10px 0px;
+}
+.waterbalance .table-form form{
+    display: flex;
+    justify-content: right;
+    gap : 10px;
+}
+
+.waterbalance .table-form form div{
+    margin-bottom: 0px !important;
+}
