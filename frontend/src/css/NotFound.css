@@ -1,0 +1,48 @@
+@keyframes fadeIn {
+from {
+    opacity: 0;
+    transform: translateY(20px);
+}
+to {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.not-found {
+text-align: center;
+margin: 50px auto;
+/* color: #333; */
+color: rgba(255, 255, 255, 0.7);
+animation: fadeIn 0.5s ease-in-out; /* Плавное появление */
+}
+
+.not-found h1 {
+font-size: 120px;
+margin-bottom: 20px;
+/* color: #ff6f61; */
+color: rgba(255, 255, 255, 0.7);
+}
+
+.not-found p {
+font-size: 20px;
+margin-bottom: 30px;
+}
+
+.back-button {
+padding: 10px 20px;
+font-size: 16px;
+background-color: #ff6f61;
+background-color: rgb(100, 105, 100);
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+background-color: #e65b50;
+}
+
+

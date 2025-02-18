@@ -1,0 +1,81 @@
+.ant-drawer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.ant-drawer-body{
+    padding: 0px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.drawer-button {
+    padding: 20px 0px 20px 10px;
+    justify-content: left;
+    border-radius: 0px;
+}
+
+.drawer-button:hover {
+    background-color: #f0f0f0 !important; /* Изменение цвета фона при наведении */
+}
+
+.exit .drawer-button{
+    justify-content: center;
+}
+.exit .drawer-button:hover{
+    color: #f0f0f0 !important;
+    background-color: #d12424 !important; /* Изменение цвета фона при наведении */
+}
+
+header .ant-btn.ant-btn-icon-only {
+    width: 40px;
+    height: 40px;
+}
+header button svg{
+    width: 20px;
+    height: 20px;
+}
+
+header {
+    padding-top : 15px;
+    padding-bottom : 15px;
+    display : flex;
+    justify-content: space-between;
+    /* justify-content: right; */
+    align-items: center;
+    /* margin-bottom: 30px; */
+    animation: hello 1s forwards;
+  }
+
+header .header-title{
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+  border-right: 1px solid #000;
+  animation: cursor 1s infinite step-end, typing 30s infinite steps(16);
+  white-space: nowrap;
+  overflow: hidden;
+}
+  
+@keyframes cursor{
+  0%, 100%{border-color: transparent;}
+  50%{border-color: #000;}
+}
+@keyframes typing{
+  0%{ width: 0ch} /*Text is hidden*/
+  8%{ width: 16.3ch;} /*The enitre header will be typed out 1 character at a time*/
+  80%{ width: 16.3ch;} /*Text stays visible*/
+  90%{ width: 0ch;} /*Text is deleted*/
+  100%{ width: 0ch;} /*Text stays hidden*/
+}
+
+header img.logo{
+  /* position: absolute;
+  top: 10px;
+  left: 20px;
+  z-index: 1000; */
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,5 @@
+npm install antd --save
+npm install axios
+npm install react-router-dom
+# npm install antd moment
+npm install xlsx file-saver 
