@@ -1,9 +1,8 @@
 # Проект аналитики объектов компании
-<h3 align="center">Hi there, I'm <a href="https://vladporsh17@gmail.com/" target="_blank">Vladislav Pershin</a>
+<h3 align="center">Привет, Я <a href="https://vladporsh17@gmail.com/" target="_blank">Vladislav Pershin</a>
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h3>
 
 **Описание:**
-
 
 Данный проект представляет собой аналитическое приложение для работы с данными объектов компании. Backend реализован с использованием [FastAPI](https://fastapi.tiangolo.com/), обеспечивая высокую производительность и простоту разработки RESTful-сервисов. Для работы с базой данных PostgreSQL используется [SQLAlchemy](https://www.sqlalchemy.org/), а управление миграциями осуществляется посредством [Alembic](https://alembic.sqlalchemy.org/). Модели [Pydantic](https://pydantic-docs.helpmanual.io/) гарантируют корректную валидацию данных на уровне API.
 
@@ -13,11 +12,17 @@
 
 Для развертывания приложения используется связка [Nginx](https://www.nginx.com/) и [Gunicorn](https://gunicorn.org/), обеспечивающая стабильную работу и надежность, благодаря проксированию.
 
+
 **Скриншоты:**
 
 *(В этом разделе будут размещены изображения приложения, демонстрирующие его интерфейс и основные функции.)*
-<img src="" width="500" >
-<img src="" width="500" >
-<img src="" width="500" >
-<img src="" width="500" >
+<p align="center">                                 
+<img src="https://github.com/Oddi17/analitic_app/blob/master/media/app.gif" width="600" >
+<img src="https://github.com/Oddi17/analitic_app/blob/master/media/1.png" width="600" >
+<img src="https://github.com/Oddi17/analitic_app/blob/master/media/2.png" width="600" >
+<img src="https://github.com/Oddi17/analitic_app/blob/master/media/3.png" width="600" >
+<img src="https://github.com/Oddi17/analitic_app/blob/master/media/4.png" width="600" >
+<img src="https://github.com/Oddi17/analitic_app/blob/master/media/5.png" width="600" >
+</p> 
+
 
