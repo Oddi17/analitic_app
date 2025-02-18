@@ -1,6 +1,9 @@
 # Проект аналитики объектов компании
+<h3 align="center">Hi there, I'm <a href="https://vladporsh17@gmail.com/" target="_blank">Vladislav Pershin</a>
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h3>
 
 **Описание:**
+
 
 Данный проект представляет собой аналитическое приложение для работы с данными объектов компании. Backend реализован с использованием [FastAPI](https://fastapi.tiangolo.com/), обеспечивая высокую производительность и простоту разработки RESTful-сервисов. Для работы с базой данных PostgreSQL используется [SQLAlchemy](https://www.sqlalchemy.org/), а управление миграциями осуществляется посредством [Alembic](https://alembic.sqlalchemy.org/). Модели [Pydantic](https://pydantic-docs.helpmanual.io/) гарантируют корректную валидацию данных на уровне API.
 
@@ -13,3 +16,8 @@
 **Скриншоты:**
 
 *(В этом разделе будут размещены изображения приложения, демонстрирующие его интерфейс и основные функции.)*
+<img src="" width="500" >
+<img src="" width="500" >
+<img src="" width="500" >
+<img src="" width="500" >
+
