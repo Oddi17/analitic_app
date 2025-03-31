@@ -21,6 +21,8 @@
 <img src="https://github.com/Oddi17/analitic_app/blob/master/media/3.png" width="600" >
 <img src="https://github.com/Oddi17/analitic_app/blob/master/media/4.png" width="600" >
 <img src="https://github.com/Oddi17/analitic_app/blob/master/media/5.png" width="600" >
+<img src="https://github.com/Oddi17/analitic_app/blob/master/media/manage_users_1.png" width="600" >
+<img src="https://github.com/Oddi17/analitic_app/blob/master/media/manage_users_2.png" width="600" >
 </p> 
 
 
