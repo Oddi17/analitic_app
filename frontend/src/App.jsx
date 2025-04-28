@@ -10,6 +10,7 @@ import Login from './pages/LoginPage';
 import Reliability from './pages/Reliability.jsx';
 import AnaliticControl from './pages/AnaliticControl.jsx'
 import AnaliticJournal from './pages/AnaliticJournal.jsx'
+import AdminManage from './pages/AdminManage.jsx';
 import Spinner from './components/Spinner.jsx';
 import ProtectedRoute from "./components/ProtectedRoute"
 import { AuthContext } from "./components/AuthContext"; // Импортируем контекст
@@ -21,6 +22,7 @@ function App() {
   }
   return (
     <>
+    
       <Router>
         <Header />
         <Routes>
@@ -45,6 +47,11 @@ function App() {
               </ProtectedRoute> 
             }
           />
+          <Route path="/admin-manage" element={
+            <ProtectedRoute rolesArray={['admin']}> 
+              <AdminManage />
+            </ProtectedRoute>
+          }/>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>

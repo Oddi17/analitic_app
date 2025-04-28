@@ -2,7 +2,7 @@ import React,{useState,useContext} from 'react';
 import {Button,Drawer,message} from 'antd';
 import {useNavigate,useLocation} from "react-router-dom";
 import axios from 'axios';
-import {MenuFoldOutlined,TableOutlined,UserOutlined,LogoutOutlined,EditOutlined,SnippetsOutlined,HomeOutlined} from '@ant-design/icons';
+import {MenuFoldOutlined,TableOutlined,UserOutlined,LogoutOutlined,EditOutlined,SnippetsOutlined,HomeOutlined,TeamOutlined} from '@ant-design/icons';
 import '../css/Header.css'
 import { AuthContext } from "../components/AuthContext";
 import logo from '../images/favicon.svg';
@@ -147,6 +147,15 @@ function Header(){
                         className="drawer-button"
                         >
                         Журнал
+                    </Button>
+                    <Button
+                        type="text"
+                        icon={<TeamOutlined />}
+                        onClick={() => handleNavigation('/admin-manage')}
+                        block 
+                        className="drawer-button"
+                        >
+                        Управление пользователями
                     </Button>
                 </div>
                 <div className='exit'>
